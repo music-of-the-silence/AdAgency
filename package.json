@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/AdAgency",
+  "homepage": "https://music-of-the-silence.github.io/AdAgency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -21,7 +21,7 @@
     "digital-marketing",
     "agency",
     "website",
-    "portfolio" 
+    "portfolio"
   ],
   "author": "Your Name",
   "license": "MIT",
