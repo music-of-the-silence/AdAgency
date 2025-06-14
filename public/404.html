@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting</title>
+  <script>
+    const segment = 1;
+    sessionStorage.redirect = segment + '/' + location.pathname.slice(1);
+    location.replace(location.pathname.substring(0, location.pathname.indexOf('/', 1) + '/'));
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
