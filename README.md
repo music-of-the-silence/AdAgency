@@ -7,7 +7,6 @@ A modern, responsive digital marketing agency website built with React, Vite, an
 - 🌐 Multilingual support (English, French, Spanish, Arabic, Hindi)
 - 🎨 Modern UI with Framer Motion animations
 - 📱 Fully responsive design
-- 🌙 Dark mode support
 - ⚡ Fast loading with Vite
 - 🎯 SEO optimized
 
