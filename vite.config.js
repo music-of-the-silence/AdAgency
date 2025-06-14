@@ -1,10 +1,9 @@
-/* eslint-disable no-unused-vars */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
-
 export default defineConfig({
+  base: '/AdAgency/', // Add this line - should match your repository name
+  plugins: [react()], // Add this line
   build: {
     outDir: "build",
     assetsDir: "assets",

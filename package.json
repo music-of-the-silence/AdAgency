@@ -1,17 +1,30 @@
 {
-  "name": "addagency",
-  "homepage": "https://github.com/music-of-the-silence/AdAgency",
+  "name": "adagency",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://yourusername.github.io/AdAgency",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/music_of_the_silence/AdAgency.git"
+  },
+  "keywords": [
+    "react",
+    "digital-marketing",
+    "agency",
+    "website",
+    "portfolio" 
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "framer-motion": "^12.18.1",
     "i18next": "^25.2.1",
@@ -27,6 +40,7 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.15",
+    "babel-plugin-react-compiler": "^19.1.0-rc.2",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
@@ -37,4 +51,3 @@
     "vite": "^6.3.5"
   }
 }
-
