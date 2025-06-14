@@ -1,6 +1,6 @@
-# React + Vite
+# Ad Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup for an Ad Agency Website.
 
 Currently, two official plugins are available:
 
