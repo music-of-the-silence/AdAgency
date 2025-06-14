@@ -1,0 +1,108 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Creative Solutions for Your Brand",
+    "subtitle": "We help businesses grow through innovative digital marketing strategies",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions to elevate your brand",
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "description": "Strategic campaigns that drive traffic, engagement, and conversions."
+    },
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Custom websites that are fast, responsive, and optimized for search engines."
+    },
+    "brandIdentity": {
+      "title": "Brand Identity",
+      "description": "Distinctive visual elements that make your brand memorable and recognizable."
+    },
+    "socialMedia": {
+      "title": "Social Media Management",
+      "description": "Engaging content and community management across all platforms."
+    }
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "See how we've helped brands achieve their goals",
+    "viewAll": "View All Projects",
+    "categories": {
+      "all": "All",
+      "branding": "Branding",
+      "web": "Web Design",
+      "marketing": "Marketing"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Hear from businesses we've helped succeed",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "position": "CEO, TechStart Inc.",
+        "image": "sarah-johnson.jpg",
+        "text": "AdAgency transformed our digital presence completely. Their strategic approach to our brand identity and marketing campaigns resulted in a 200% increase in qualified leads within just three months."
+      },
+      {
+        "name": "Michael Chen",
+        "position": "Marketing Director, GrowthBox",
+        "image": "michael-chen.jpg",
+        "text": "Working with AdAgency has been a game-changer for our business. Their team's creativity and attention to detail helped us stand out in a crowded market. Our social media engagement has increased by 150% since we started working together."
+      },
+      {
+        "name": "Emily Rodriguez",
+        "position": "Founder, Bloom Boutique",
+        "image": "emily-rodriguez.jpg",
+        "text": "As a small business owner, I needed an agency that understood my vision and budget. AdAgency delivered beyond my expectations, creating a beautiful website and brand identity that perfectly captures our essence."
+      },
+      {
+        "name": "David Wilson",
+        "position": "COO, Enterprise Solutions",
+        "image": "david-wilson.jpg",
+        "text": "The team at AdAgency are true professionals. Their data-driven approach to our marketing campaigns has resulted in measurable ROI and sustainable growth. I highly recommend their services to any business looking to scale."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "A team of passionate creatives dedicated to your success",
+    "description": "Founded in 2015, our agency has helped hundreds of businesses transform their digital presence. We combine creativity with data-driven strategies to deliver exceptional results.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with innovative digital solutions that drive growth and create meaningful connections with their audience."
+    },
+    "values": {
+      "title": "Our Values",
+      "creativity": "Creativity",
+      "excellence": "Excellence",
+      "integrity": "Integrity",
+      "collaboration": "Collaboration"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your project? Contact us today",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Your message has been sent successfully!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "footer": {
+    "rights": "© 2024 AdAgency. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

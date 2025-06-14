@@ -1,0 +1,108 @@
+{
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Solutions Créatives pour Votre Marque",
+    "subtitle": "Nous aidons les entreprises à se développer grâce à des stratégies de marketing digital innovantes",
+    "cta": "Commencer",
+    "learnMore": "En Savoir Plus"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions digitales complètes pour élever votre marque",
+    "digitalMarketing": {
+      "title": "Marketing Digital",
+      "description": "Campagnes stratégiques qui génèrent du trafic, de l'engagement et des conversions."
+    },
+    "webDevelopment": {
+      "title": "Développement Web",
+      "description": "Sites web personnalisés rapides, réactifs et optimisés pour les moteurs de recherche."
+    },
+    "brandIdentity": {
+      "title": "Identité de Marque",
+      "description": "Éléments visuels distinctifs qui rendent votre marque mémorable et reconnaissable."
+    },
+    "socialMedia": {
+      "title": "Gestion des Médias Sociaux",
+      "description": "Contenu engageant et gestion de communauté sur toutes les plateformes."
+    }
+  },
+  "portfolio": {
+    "title": "Notre Travail",
+    "subtitle": "Découvrez comment nous avons aidé des marques à atteindre leurs objectifs",
+    "viewAll": "Voir Tous les Projets",
+    "categories": {
+      "all": "Tous",
+      "branding": "Branding",
+      "web": "Design Web",
+      "marketing": "Marketing"
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Écoutez les entreprises que nous avons aidées à réussir",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "position": "PDG, TechStart Inc.",
+        "image": "sarah-johnson.jpg",
+        "text": "AdAgency a complètement transformé notre présence numérique. Leur approche stratégique de notre identité de marque et de nos campagnes marketing a entraîné une augmentation de 200% des prospects qualifiés en seulement trois mois."
+      },
+      {
+        "name": "Michael Chen",
+        "position": "Directeur Marketing, GrowthBox",
+        "image": "michael-chen.jpg",
+        "text": "Travailler avec AdAgency a changé la donne pour notre entreprise. La créativité et l'attention aux détails de leur équipe nous ont aidés à nous démarquer sur un marché encombré. Notre engagement sur les réseaux sociaux a augmenté de 150% depuis que nous avons commencé à travailler ensemble."
+      },
+      {
+        "name": "Emily Rodriguez",
+        "position": "Fondatrice, Bloom Boutique",
+        "image": "emily-rodriguez.jpg",
+        "text": "En tant que propriétaire d'une petite entreprise, j'avais besoin d'une agence qui comprenait ma vision et mon budget. AdAgency a dépassé mes attentes, créant un site web magnifique et une identité de marque qui capture parfaitement notre essence."
+      },
+      {
+        "name": "David Wilson",
+        "position": "Directeur des Opérations, Enterprise Solutions",
+        "image": "david-wilson.jpg",
+        "text": "L'équipe d'AdAgency est composée de vrais professionnels. Leur approche basée sur les données pour nos campagnes marketing a abouti à un ROI mesurable et à une croissance durable. Je recommande vivement leurs services à toute entreprise cherchant à se développer."
+      }
+    ]
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Une équipe de créatifs passionnés dédiés à votre succès",
+    "description": "Fondée en 2015, notre agence a aidé des centaines d'entreprises à transformer leur présence digitale. Nous combinons créativité et stratégies basées sur les données pour offrir des résultats exceptionnels.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Donner aux entreprises les moyens de disposer de solutions digitales innovantes qui favorisent la croissance et créent des connexions significatives avec leur public."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "creativity": "Créativité",
+      "excellence": "Excellence",
+      "integrity": "Intégrité",
+      "collaboration": "Collaboration"
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Prêt à démarrer votre projet? Contactez-nous aujourd'hui",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "success": "Votre message a été envoyé avec succès!",
+    "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+  },
+  "footer": {
+    "rights": "© 2024 AdAgency. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}
