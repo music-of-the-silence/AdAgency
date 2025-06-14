@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { HeroImage } from "../../src/assets/images/hero-image.png";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
@@ -170,8 +171,8 @@ const Hero = () => {
 
             {/* Image with relative positioning */}
             <div className="relative z-10">
-              <img 
-                src="/images/hero-image.png" 
+              <img
+                src={HeroImage}
                 alt="Hero"
                 className="w-full h-full object-cover"
               />
