@@ -2,37 +2,32 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main # or master, depending on your default branch
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
-          
-      - name: Install dependencies
-        run: npm install
-        
-      - name: Build project
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build
         run: npm run build
-        
-      - name: Verify dist directory
-        run: ls -la ./dist
-      
-      - name: Ensure dist exists
-        run: mkdir -p ./dist
-      
-      - name: Add .nojekyll
-        run: touch ./dist/.nojekyll
-        
+
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          keep_files: true
+          folder: build
+          branch: gh-pages
