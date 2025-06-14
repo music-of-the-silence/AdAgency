@@ -107,7 +107,6 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <img src="/favicon.png" alt="Logo" class="w-6 h-6 mr-1"/>
           <span className="text-accent mr-1">Ad </span>
           <span>Agency</span>
         </motion.a>

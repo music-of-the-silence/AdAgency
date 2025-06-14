@@ -40,7 +40,6 @@ const Footer = () => {
           {/* Company Info */}
           <motion.div variants={itemVariants}>
             <h3 className="text-xl font-bold mb-6 flex items-center">
-              <img src="/favicon.png" alt="Logo" class="w-6 h-6 mr-1" />
               <span className="text-accent mr-1">Ad </span>
               <span>Agency</span>
             </h3>
